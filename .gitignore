@@ -1,0 +1,25 @@
+# Build output
+*.exe
+*.o
+*.obj
+build/
+out/
+
+# VS Code (keep launch/task config, ignore generated/personal files)
+.vscode/ipch/
+.vscode/*.db
+.vscode/*.VC.db
+.vscode/*.VC.opendb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiler / debug artifacts
+*.pdb
+*.ilk
+*.dSYM/
