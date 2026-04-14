@@ -11,7 +11,7 @@ Hunt down 4 hidden military sites on a 9×9 grid using nuclear weapons, but watc
 - Use **nukes** to strike a target; each blast contaminates a 3×3 area
 - Destroy all 4 military sites before you run out of nukes to win
 
-**Scoring:** +8 reputation per military site destroyed, −2 per residential area hit
+**Scoring:** +8 reputation per military site destroyed, -2 per residential area hit
 
 ## Building
 
