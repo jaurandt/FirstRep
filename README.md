@@ -2,13 +2,13 @@
 
 A console-based strategy game originally written around 2004 (age ~14) and later modernized to clean C++17.
 
-Hunt down 4 hidden military sites on a 9×9 grid using nuclear weapons — but watch out for civilian casualties.
+Hunt down 4 hidden military sites on a 9×9 grid using nuclear weapons, but watch out for civilian casualties.
 
 ## Gameplay
 
 - 15 residential tiles are revealed at the start as intel
 - Use **spy runs** to peek at any hidden tile
-- Use **nukes** to strike a target — each blast contaminates a 3×3 area
+- Use **nukes** to strike a target; each blast contaminates a 3×3 area
 - Destroy all 4 military sites before you run out of nukes to win
 
 **Scoring:** +8 reputation per military site destroyed, −2 per residential area hit
@@ -36,5 +36,5 @@ g++ -std=c++17 -o NuclearWars.exe Nuclear.cpp
 
 | Key | Action |
 |-----|--------|
-| `p` | Spy run — reveal a hidden tile |
-| `n` | Launch a nuke |
+| `p` | Spy run reveals a hidden tile |
+| `n` | Launches a nuke at chosen tile |
